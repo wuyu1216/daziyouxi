@@ -3,16 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <script src="js/dazi.js"></script>
+    <script src="js/index.js"></script>
 </head>
-<body>
 <style>
     *{
         margin:0;
         padding: 0;
         list-style: none;
+
+    }
+    body{
+        height:620px;
+        background: url(img/bg.jpg) center/cover no-repeat;
+
+    }
+    .box>div:first-child{
+        border:1px solid #fff;
+        background-color:skyblue;
+        border-radius: 30px;
+        font-size: 18px;
+        padding: 5px;
+        width: 100px;
+        margin:10px 0 10px 10px;
+        text-align: center;
+        color:#333;
+        font-style: italic;
+    }
+    .box>div:last-child{
+        border:1px solid #fff;
+        background-color: skyblue;
+        border-radius: 30px;
+        font-size: 18px;
+        padding: 5px;
+        width: 100px;
+        margin:10px 0 10px 10px;
+        text-align: center;
+        color:#333;
+        font-style: italic;
+    }
+    .box span{
+        font-weight: 600;
     }
 </style>
+<body>
+
+<div class="box">
+    <div>分数：<span>0</span></div>
+    <div>生命值：<span>10</span></div>
+</div>
 </body>
 </html>
-<script src="js/dazi.js"></script>
-<script src="js/index.js"></script>
